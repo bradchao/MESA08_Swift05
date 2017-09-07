@@ -32,6 +32,33 @@ func ary2test(){
     }
     print("-----")
     
+    var newi = 0
+    for k in 0..<2{
+        for j in 1...9 {
+            for i in 2 ... 5 {
+                newi = i + k * 4
+                print("\(newi) x \(j) = \(newi*j)", terminator:"\t")
+            }
+            print()
+        }
+        print("----")
+    }
+    
+    var ary3 = [1,52,33,27,47,97]
+    print(ary3.description) // toString
+    ary3.sort();
+    print(ary3.description) // toString
+    
+    ary3.sort(by: {(a,b)->Bool in return a > b})
+    
+    print(ary3.description) // toString
+
+    
+    
+    
+    
+    
+    
     
     
     
