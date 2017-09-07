@@ -9,4 +9,7 @@
 import Foundation
 
 print("Hello, World!")
+myint()
+myary()
+ary2test()
 

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		37AE10F81F5FDC98003D6A79 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE10F71F5FDC98003D6A79 /* main.swift */; };
+		37AE10FF1F5FDE1E003D6A79 /* myint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE10FE1F5FDE1E003D6A79 /* myint.swift */; };
+		37AE11011F5FE1B9003D6A79 /* myarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE11001F5FE1B9003D6A79 /* myarray.swift */; };
+		37AE11031F60EEF3003D6A79 /* myary2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE11021F60EEF3003D6A79 /* myary2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		37AE10F41F5FDC98003D6A79 /* MySwift05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MySwift05; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AE10F71F5FDC98003D6A79 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		37AE10FE1F5FDE1E003D6A79 /* myint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myint.swift; sourceTree = "<group>"; };
+		37AE11001F5FE1B9003D6A79 /* myarray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myarray.swift; sourceTree = "<group>"; };
+		37AE11021F60EEF3003D6A79 /* myary2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myary2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				37AE10F71F5FDC98003D6A79 /* main.swift */,
+				37AE10FE1F5FDE1E003D6A79 /* myint.swift */,
+				37AE11001F5FE1B9003D6A79 /* myarray.swift */,
+				37AE11021F60EEF3003D6A79 /* myary2.swift */,
 			);
 			path = MySwift05;
 			sourceTree = "<group>";
@@ -122,6 +131,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				37AE10F81F5FDC98003D6A79 /* main.swift in Sources */,
+				37AE11011F5FE1B9003D6A79 /* myarray.swift in Sources */,
+				37AE10FF1F5FDE1E003D6A79 /* myint.swift in Sources */,
+				37AE11031F60EEF3003D6A79 /* myary2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
