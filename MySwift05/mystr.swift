@@ -79,3 +79,48 @@ func mysubstrv2(source:String, from:Int, to:Int) -> String {
     }
     return ret
 }
+
+func mystr2(){
+    let a = 10, b = 3
+    if a > b {
+        print( "OK")
+    }else{
+        print( "XX")
+    }
+    
+    // c => ASCII => 99; C => ASCII => 67
+    let c = "c", d = "C"
+    if c > d {
+        print("OK2")
+    }else{
+        print("XX2")
+    }
+    
+    var a1:String? = "Brad"
+    if let a2 = a1 {
+        print(type(of:a2))
+        print("OK3:\(a1):\(a2)")
+    }else{
+        //print(type(of:a2))
+        // 不認識 a2
+        print("XX3")
+    }
+    
+    let twid = "A123456789"
+    if let range = twid.range(of: "1234") {
+        print("OK4")
+    }else{
+        print("XX4")
+    }
+    
+    if let range = twid.range(of: "^[A-Z][12][0-9]{8}$", options: .regularExpression ) {
+        print("OK5")
+    }else{
+        print("XX5")
+    }
+    
+    
+    
+}
+
+

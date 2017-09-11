@@ -32,8 +32,10 @@ print(v2.squareRoot())
 var v7 = 12.456
 
 mystr()
-
-
+mystr2()
+tupletest()
+myset()
+mydic()
 
 
 
